@@ -1,0 +1,75 @@
+.mainContacto{
+    font-size: 14px;
+    padding: 5px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    @media(max-width:651px){
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+    }
+}
+
+.divPadreformContacto{
+    background: $colorGradFondo;
+    padding: 10px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 10px;
+}
+
+.formContacto {
+    margin: 5px;
+    padding: 5px;
+    font-size: 14px;
+    div{
+        margin: 0px;
+        padding: 4px;
+        background-color: $colorTransparente;
+    }
+}
+
+.completarFormContacto{
+    width: 250px;
+    border-top: none;
+    border-left: solid 1px;
+    border-right: none;
+    border-bottom: solid 2px;
+    background-color: $colorTransparente;
+    border-bottom-color: $colorFrontal;
+}
+
+.fieldsetContacto {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: $colorTransparente;
+}
+.botonEnviarContacto {
+    font-size: 16px;
+    color: $colorFuenteFrontal;
+    background-color: $colorFrontal;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+
+.locContacto {
+    margin: 5px;
+}
+
+.mapaUbi{
+        width: 100%;
+        height: 85%;
+}
+
+.textoMapaContacto {
+    @media(min-width:320px){
+        font-size: 13px;
+    }
+}

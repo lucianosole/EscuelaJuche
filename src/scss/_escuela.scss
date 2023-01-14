@@ -1,0 +1,30 @@
+.h2Escuela{
+    text-align: center;
+    padding: 10px;
+    font-size: 32px;
+}
+.textoEscuela {
+    border-radius: 10px;
+    background-color: gray;
+    color: $colorFuenteFrontal;
+    box-shadow: 10px 10px 5px $colorFrontal;
+    margin: 10px;
+    padding: 10px;
+}
+
+.imagenesEscuela {
+    border-style: none;
+    text-align: center;
+    margin: auto;
+    img{
+        border-radius: 5px;
+        width: 300px;
+    }
+}
+
+.bodyEscuela {
+    background-color: silver;
+    background-image: url(../../assets/img/wooden-texture-background.jpg);
+    object-fit: contain;
+
+}

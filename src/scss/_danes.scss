@@ -1,0 +1,45 @@
+.bodyDanes{
+    background-color: $colorBackground;
+    background-image: url(../../assets/img/wall-black-belt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h2,.h2Formas,table{
+        background-color: $colorFuenteFrontal;
+        opacity: 75%;
+        border-radius: 10px;
+    }
+
+}
+
+.h2Formas{
+    padding: 0px 10px;
+    width: fit-content;
+}
+
+table {
+    border: solid 1px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.tablaGrados {
+    margin: auto;
+    border: solid 1px;
+    text-align: center;
+}
+
+.tablaGrados th , .tablaGrados td{
+    border: solid 1px;
+    padding: 5px;
+}
+
+@media(max-width:500px){
+    .h2Formas{
+        font-size: 22px;
+    }
+
+    .cituronDanes{
+        width: 70%;
+    }
+}

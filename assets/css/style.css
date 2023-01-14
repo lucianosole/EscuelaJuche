@@ -1,0 +1,343 @@
+/* FUENTES */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.row, .container, .container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+
+.headerEtiqueta, h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #402721;
+  padding: 0px;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  height: 70px;
+}
+
+@media (max-width: 850px) {
+  h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 736px) {
+  h1 {
+    font-size: medium;
+  }
+}
+@media (max-width: 425px) {
+  h1 {
+    font-size: small;
+  }
+}
+
+.img_nav {
+  height: 90px;
+  position: static;
+  padding: 2px;
+  border-radius: 10px;
+}
+@media (max-width: 650px) {
+  .img_nav {
+    height: 70px;
+  }
+}
+@media (max-width: 375px) {
+  .img_nav {
+    height: 50px;
+  }
+}
+
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+nav ul li {
+  margin: 5px;
+  display: inline-block;
+  position: relative;
+}
+nav ul li a {
+  background-color: #402721;
+  display: block;
+  color: white;
+  list-style-type: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+@media (max-width: 425px) {
+  nav ul li a {
+    font-size: 12px;
+  }
+}
+@media (max-width: 320px) {
+  nav ul li a {
+    font-size: 10px;
+  }
+}
+
+.footerEtiqueta {
+  grid-area: footerEtiqueta;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
+  background-color: #402721;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  padding: 0px;
+  font-size: 18px;
+  height: 80px;
+}
+@media (max-width: 462px) {
+  .footerEtiqueta {
+    flex-direction: column;
+    gap: 5px;
+    font-size: 12px;
+    height: 140px;
+  }
+}
+.footerEtiqueta h3 {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+}
+@media (max-width: 462px) {
+  .footerEtiqueta h3 {
+    font-size: 10px;
+  }
+}
+
+.mainInicio {
+  margin: 5px;
+  font-size: 14px;
+  color: #402721;
+  background-image: url("../../assets/img/background-texture-wall-concept.jpg");
+  background-size: contain;
+  background-color: #bdb76b;
+}
+.mainInicio h2 {
+  text-align: center;
+  font-size: 32px;
+}
+.mainInicio img {
+  width: 300px;
+  align-content: center;
+}
+@media (max-width: 425px) {
+  .mainInicio img {
+    width: 200px;
+  }
+}
+.mainInicio p {
+  text-align: justify;
+  font-size: medium;
+}
+@media (max-width: 425px) {
+  .mainInicio p {
+    font-size: small;
+  }
+}
+
+.h2Escuela {
+  text-align: center;
+  padding: 10px;
+  font-size: 32px;
+}
+
+.textoEscuela {
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+  box-shadow: 10px 10px 5px #402721;
+  margin: 10px;
+  padding: 10px;
+}
+
+.imagenesEscuela {
+  border-style: none;
+  text-align: center;
+  margin: auto;
+}
+.imagenesEscuela img {
+  border-radius: 5px;
+  width: 300px;
+}
+
+.bodyEscuela {
+  background-color: silver;
+  background-image: url(../../assets/img/wooden-texture-background.jpg);
+  object-fit: contain;
+}
+
+.bodyFormas {
+  background-image: url(../../assets/img/buddha-garden.jpg);
+  background-color: #bdb76b;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bodyDanes {
+  background-color: #bdb76b;
+  background-image: url(../../assets/img/wall-black-belt.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bodyDanes h2, .bodyDanes .h2Formas, .bodyDanes table {
+  background-color: white;
+  opacity: 75%;
+  border-radius: 10px;
+}
+
+.h2Formas {
+  padding: 0px 10px;
+  width: fit-content;
+}
+
+table {
+  border: solid 1px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.tablaGrados {
+  margin: auto;
+  border: solid 1px;
+  text-align: center;
+}
+
+.tablaGrados th, .tablaGrados td {
+  border: solid 1px;
+  padding: 5px;
+}
+
+@media (max-width: 500px) {
+  .h2Formas {
+    font-size: 22px;
+  }
+  .cituronDanes {
+    width: 70%;
+  }
+}
+.galerias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.galeria {
+  width: 450px;
+  height: 300px;
+  position: relative;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.galeria h4 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 10px;
+  font-size: 14px;
+  text-align: right;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.507);
+}
+.galeria img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 1.5s;
+}
+.galeria img:hover {
+  transform: scale(120%);
+}
+
+.mainContacto {
+  font-size: 14px;
+  padding: 5px;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media (max-width: 651px) {
+  .mainContacto {
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.divPadreformContacto {
+  background: linear-gradient(35deg, rgb(64, 39, 33) 4%, rgb(242, 242, 242) 72%, rgb(255, 255, 255) 100%);
+  padding: 10px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 10px;
+}
+
+.formContacto {
+  margin: 5px;
+  padding: 5px;
+  font-size: 14px;
+}
+.formContacto div {
+  margin: 0px;
+  padding: 4px;
+  background-color: rgba(64, 39, 33, 0);
+}
+
+.completarFormContacto {
+  width: 250px;
+  border-top: none;
+  border-left: solid 1px;
+  border-right: none;
+  border-bottom: solid 2px;
+  background-color: rgba(64, 39, 33, 0);
+  border-bottom-color: #402721;
+}
+
+.fieldsetContacto {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  background-color: rgba(64, 39, 33, 0);
+}
+
+.botonEnviarContacto {
+  font-size: 16px;
+  color: white;
+  background-color: #402721;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+}
+
+.locContacto {
+  margin: 5px;
+}
+
+.mapaUbi {
+  width: 100%;
+  height: 85%;
+}
+
+@media (min-width: 320px) {
+  .textoMapaContacto {
+    font-size: 13px;
+  }
+}/*# sourceMappingURL=style.css.map */
