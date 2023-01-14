@@ -11,7 +11,7 @@
     <title>Contacto - Escuela Juche - Taekwondo ITF</title>
 </head>
 <body>
-    <nav class="row align-items-center justify-content-evenly py-1">
+    <nav class="row align-items-center justify-content-evenly py-1 navegador">
         <img class="col-6 img_nav p-0 m-0 w-auto" src="../assets/img/escuelas.gif" alt="Escuela Taekwondo ITF">
         <ul class="col-6 m-0 p-0 w-auto">
             <li><a class="p-1" href="../index.html">Inicio</a></li>
@@ -28,37 +28,40 @@
             </div>
         </header>
 
-        <main class="row justify-content-around align-content-center gap-3">
-            <div class="col-12 col-md-5 col-lg-4 m-0 p-0 py-3">
+        <main class="row justify-content-around align-content-center gap-3 mainContacto">
+            <div class="col-12 col-md-5 m-0 p-0 py-3">
                 <iframe class="mapaUbi p-0 m-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d418.2556408124597!2d-60.782843975725896!3d-33.002585727856996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7b262506c2a43%3A0x762249d00f8e6685!2sclub%20social%20perez!5e0!3m2!1ses-419!2sar!4v1668772436444!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <p class="p-0 m-0 textoMapaContacto"><i class="fa-solid fa-location-dot"></i>  Ubicación - Club Social</p>
                 <p class="p-0 m-0 textoMapaContacto"><i class="fa-solid fa-location-dot"></i>  1° De Mayo 2553 - Pérez - Santa Fé</p>
             </div>
-            <div class="col-12 col-md-5 col-lg-4 m-0 p-0 py-3">
+            <div class="col-12 col-md-5 m-0 p-0 py-3">
                 <iframe class="mapaUbi p-0 m-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d836.3369171727883!2d-60.87884798862744!3d-33.02096978036007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7b48beff3e9a5%3A0xac7cfa178cb65cbd!2sA.I.A.M.!5e0!3m2!1ses-419!2sar!4v1668772553288!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <p class="p-0 m-0 textoMapaContacto"><i class="p-0 m-0 fa-solid fa-location-dot"></i>  Ubicación - Club A.I.A.M</p>
                 <p class="p-0 m-0 textoMapaContacto"><i class="p-0 m-0 fa-solid fa-location-dot"></i>  Bv. Villarino esq. Sarmiento - Zavalla - Santa Fé</p>
             </div>
-            <div class="col-12 col-md-12 col-lg-4 m-2 w-auto py-2 divPadreformContacto">
+            <div class="col-12 m-2 d-flex justify-content-center py-2 divPadreformContacto">
                 <form class="formContacto m-0 p-0" action="contactos" method="get">
-                    <fieldset class="fieldsetContacto m-0 p-0">
-                        <legend>Formulario de contacto:</legend>
+                    <fieldset class="fieldsetContacto m-0 p-0"></fieldset>
+                        <legend class="fieldLeyenda m-0">Formulario de contacto</legend>
                         <div>
+                            <i class="fa-solid fa-user"></i>
                             <input class="completarFormContacto" type="text" name="nombre" required placeholder="Nombre y apellido">
                         </div>
                         <div>
+                            <i class="fa-solid fa-phone"></i>
                             <input class="completarFormContacto" type="text" name="correo" required placeholder="Teléfono">
                         </div>
                         <div>
+                            <i class="fa-solid fa-envelope"></i>
                             <input class="completarFormContacto" type="text" name="telefono" required placeholder="E_mail">
                         </div>
                         <div>
+                            <i class="fa-solid fa-memo"></i>
                             <textarea class="completarFormContacto" name="consulta" placeholder="Ingrese su consulta" cols="30" rows="10"></textarea>
                         </div>
                         <div class="divEnviarContacto">
                             <input class="botonEnviarContacto" type="button" value="Enviar">
                         </div>
-                    </fieldset>
                 </form>
             </div>
         </main>

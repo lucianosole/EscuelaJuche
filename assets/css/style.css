@@ -12,6 +12,10 @@
   padding: 0px;
 }
 
+body {
+  margin-top: 90px;
+}
+
 .headerEtiqueta, h1 {
   display: flex;
   align-items: center;
@@ -38,6 +42,14 @@
   h1 {
     font-size: small;
   }
+}
+
+.navegador {
+  background-color: #402721;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
 }
 
 .img_nav {
@@ -174,6 +186,11 @@ nav ul li a {
   border-radius: 5px;
   width: 300px;
 }
+@media (max-width: 425px) {
+  .imagenesEscuela img {
+    width: 150px;
+  }
+}
 
 .bodyEscuela {
   background-color: silver;
@@ -265,24 +282,15 @@ table {
 }
 
 .mainContacto {
-  font-size: 14px;
-  padding: 5px;
-  gap: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-@media (max-width: 651px) {
-  .mainContacto {
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-  }
+  background-image: url(../../assets/img/smartphone-wall-transparente.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #bdb76b;
 }
 
 .divPadreformContacto {
   background: linear-gradient(35deg, rgb(64, 39, 33) 4%, rgb(242, 242, 242) 72%, rgb(255, 255, 255) 100%);
+  width: 450px;
   padding: 10px;
   border-style: solid;
   border-width: 0.5px;
@@ -301,7 +309,7 @@ table {
 }
 
 .completarFormContacto {
-  width: 250px;
+  width: 100%;
   border-top: none;
   border-left: solid 1px;
   border-right: none;
@@ -311,6 +319,7 @@ table {
 }
 
 .fieldsetContacto {
+  width: auto;
   padding: 10px;
   margin: 5px;
   border: none;
@@ -333,7 +342,7 @@ table {
 
 .mapaUbi {
   width: 100%;
-  height: 85%;
+  height: 90%;
 }
 
 @media (min-width: 320px) {

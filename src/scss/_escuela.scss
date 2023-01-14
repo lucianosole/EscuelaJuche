@@ -19,6 +19,9 @@
     img{
         border-radius: 5px;
         width: 300px;
+        @media (max-width:425px) {
+            width: 150px;
+        }        
     }
 }
 
