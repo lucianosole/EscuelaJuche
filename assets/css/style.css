@@ -16,6 +16,17 @@ body {
   margin-top: 90px;
 }
 
+.botonTkd {
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: #402721;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-style: bold;
+}
+
 .headerEtiqueta, h1 {
   display: flex;
   align-items: center;
@@ -205,6 +216,14 @@ nav ul li a {
   background-repeat: no-repeat;
 }
 
+.titularFormas {
+  width: 100%;
+  padding: 5px;
+  color: white;
+  font-style: bold;
+  text-shadow: 2px 2px #402721;
+}
+
 .bodyDanes {
   background-color: #bdb76b;
   background-image: url(../../assets/img/wall-black-belt.jpg);
@@ -328,16 +347,6 @@ table {
   margin: 5px;
   border: none;
   background-color: rgba(64, 39, 33, 0);
-}
-
-.botonEnviarContacto {
-  font-size: 16px;
-  color: white;
-  background-color: #402721;
-  border: none;
-  border-radius: 5px;
-  width: 100px;
-  height: 40px;
 }
 
 .locContacto {

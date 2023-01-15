@@ -12,3 +12,13 @@ $colorGradFondo: linear-gradient(35deg, rgba(64,39,33,1) 4%, rgba(242,242,242,1)
 
 $colorTransparente: #40272100;
 
+@mixin tkd_btn ($ancho, $alto, $colorTexto, $colorFondo) {
+    width: $ancho;
+    height: $alto;
+    color: $colorTexto;
+    background-color: $colorFondo;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-style: bold;
+}

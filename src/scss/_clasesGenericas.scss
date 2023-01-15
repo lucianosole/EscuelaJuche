@@ -1,0 +1,3 @@
+.botonTkd {
+    @include tkd_btn (100px, 40px, $colorFuenteFrontal, $colorFrontal);
+}
