@@ -39,10 +39,10 @@
                 <p class="p-0 m-0 textoMapaContacto"><i class="p-0 m-0 fa-solid fa-location-dot"></i>  Ubicación - Club A.I.A.M</p>
                 <p class="p-0 m-0 textoMapaContacto"><i class="p-0 m-0 fa-solid fa-location-dot"></i>  Bv. Villarino esq. Sarmiento - Zavalla - Santa Fé</p>
             </div>
-            <div class="col-12 m-2 d-flex justify-content-center py-2 divPadreformContacto">
-                <form class="formContacto m-0 p-0" action="contactos" method="get">
-                    <fieldset class="fieldsetContacto m-0 p-0"></fieldset>
-                        <legend class="fieldLeyenda m-0">Formulario de contacto</legend>
+            <div class="col-12 m-2  py-2 divPadreformContacto">
+                <form class="formContacto m-0 p-0 align-content-center" action="contactos" method="get">
+                    <fieldset class="fieldsetContacto m-0 p-0">
+                        <legend class="text-center m-0">Formulario de contacto</legend>
                         <div>
                             <i class="fa-solid fa-user"></i>
                             <input class="completarFormContacto" type="text" name="nombre" required placeholder="Nombre y apellido">
@@ -55,13 +55,14 @@
                             <i class="fa-solid fa-envelope"></i>
                             <input class="completarFormContacto" type="text" name="telefono" required placeholder="E_mail">
                         </div>
-                        <div>
-                            <i class="fa-solid fa-memo"></i>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-pen"></i>
                             <textarea class="completarFormContacto" name="consulta" placeholder="Ingrese su consulta" cols="30" rows="10"></textarea>
                         </div>
-                        <div class="divEnviarContacto">
+                        <div class="d-flex justify-content-end">
                             <input class="botonEnviarContacto" type="button" value="Enviar">
                         </div>
+                    </fieldset>
                 </form>
             </div>
         </main>

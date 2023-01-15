@@ -7,11 +7,15 @@
 
 .divPadreformContacto{
     background: $colorGradFondo;
+    background-image: url(../../assets/img/wall_wooden_textured.jpg);
     width: 450px;
     padding: 10px;
     border-style: solid;
     border-width: 0.5px;
     border-radius: 10px;
+    legend{
+        color: $colorFuenteFrontal;
+    }
 }
 
 .formContacto {
@@ -22,16 +26,16 @@
         margin: 0px;
         padding: 4px;
         background-color: $colorTransparente;
+        i{
+            color: $colorFuenteFrontal;
+        }
     }
 }
 
 .completarFormContacto{
-    width: 100%;
-    border-top: none;
-    border-left: solid 1px;
-    border-right: none;
-    border-bottom: solid 2px;
-    background-color: $colorTransparente;
+    width: 95%;
+    border-radius: 5px;
+    background-color: $colorFuenteFrontal;
     border-bottom-color: $colorFrontal;
 }
 
@@ -42,6 +46,7 @@
     border: none;
     background-color: $colorTransparente;
 }
+
 .botonEnviarContacto {
     font-size: 16px;
     color: $colorFuenteFrontal;
