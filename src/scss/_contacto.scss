@@ -1,8 +1,6 @@
 .mainContacto{
     background-image: url(../../assets/img/smartphone-wall-transparente.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: $colorBackground;
+    @extend .imagen_back;
 }
 
 .divPadreformContacto{

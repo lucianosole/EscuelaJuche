@@ -26,8 +26,6 @@
 }
 
 .bodyEscuela {
-    background-color: silver;
     background-image: url(../../assets/img/wooden-texture-background.jpg);
-    object-fit: contain;
-
+    @extend .imagen_back;
 }

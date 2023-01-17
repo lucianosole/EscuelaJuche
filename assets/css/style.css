@@ -27,6 +27,12 @@ body {
   font-style: bold;
 }
 
+.imagen_back, .mainContacto, .bodyDanes, .bodyFormas, .bodyEscuela, .mainInicio {
+  background-color: #bdb76b;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .headerEtiqueta, h1 {
   display: flex;
   align-items: center;
@@ -145,10 +151,7 @@ nav ul li a {
 .mainInicio {
   margin: 5px;
   font-size: 14px;
-  color: #402721;
   background-image: url("../../assets/img/background-texture-wall-concept.jpg");
-  background-size: contain;
-  background-color: #bdb76b;
 }
 .mainInicio h2 {
   text-align: center;
@@ -204,16 +207,11 @@ nav ul li a {
 }
 
 .bodyEscuela {
-  background-color: silver;
   background-image: url(../../assets/img/wooden-texture-background.jpg);
-  object-fit: contain;
 }
 
 .bodyFormas {
   background-image: url(../../assets/img/buddha-garden.jpg);
-  background-color: #bdb76b;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .titularFormas {
@@ -225,10 +223,7 @@ nav ul li a {
 }
 
 .bodyDanes {
-  background-color: #bdb76b;
   background-image: url(../../assets/img/wall-black-belt.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .bodyDanes h2, .bodyDanes .h2Formas, .bodyDanes table {
   background-color: white;
@@ -247,14 +242,13 @@ table {
   border-radius: 10px;
 }
 
-.tablaGrados {
+.tablaGrados, .tablaGrados th, .tablaGrados td {
   margin: auto;
   border: solid 1px;
   text-align: center;
 }
 
 .tablaGrados th, .tablaGrados td {
-  border: solid 1px;
   padding: 5px;
 }
 
@@ -302,9 +296,6 @@ table {
 
 .mainContacto {
   background-image: url(../../assets/img/smartphone-wall-transparente.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #bdb76b;
 }
 
 .divPadreformContacto {

@@ -1,3 +1,10 @@
 .botonTkd {
     @include tkd_btn (100px, 40px, $colorFuenteFrontal, $colorFrontal);
 }
+
+
+.imagen_back {
+    background-color: $colorBackground;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

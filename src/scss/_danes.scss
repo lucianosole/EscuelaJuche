@@ -1,8 +1,6 @@
 .bodyDanes{
-    background-color: $colorBackground;
+    @extend .imagen_back;
     background-image: url(../../assets/img/wall-black-belt.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 
     h2,.h2Formas,table{
         background-color: $colorFuenteFrontal;
@@ -30,9 +28,12 @@ table {
 }
 
 .tablaGrados th , .tablaGrados td{
-    border: solid 1px;
+    @extend .tablaGrados;
     padding: 5px;
 }
+
+
+
 
 @media(max-width:500px){
     .h2Formas{
