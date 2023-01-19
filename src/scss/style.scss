@@ -17,5 +17,19 @@
 @import "contacto";
 
 
-
+.whatsapp{
+    font-size: 36px;
+    color: green;
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    &:hover{
+        padding: 5px;
+        border: 2px solid;
+        border-radius: 5px;
+        font-size: 40px;
+        transition: 1s;
+    }
+}
 

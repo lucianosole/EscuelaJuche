@@ -353,4 +353,20 @@ table {
   .textoMapaContacto {
     font-size: 13px;
   }
+}
+
+.whatsapp {
+  font-size: 36px;
+  color: green;
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.whatsapp:hover {
+  padding: 5px;
+  border: 2px solid;
+  border-radius: 5px;
+  font-size: 40px;
+  transition: 1s;
 }/*# sourceMappingURL=style.css.map */
