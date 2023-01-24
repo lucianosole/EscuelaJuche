@@ -11,7 +11,12 @@
     padding: 0px;
     font-size: 18px;
     height: 80px;
-
+    i{
+        color: $colorFuenteFrontal;
+        text-decoration: none;
+        font-size: 24px;
+        padding: 5px;
+    }
     @media (max-width:462px){
         flex-direction: column;
         gap: 5px;
