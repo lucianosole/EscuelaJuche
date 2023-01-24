@@ -1,13 +1,13 @@
-$colorFrontal: #402721;
-
-$colorFuenteFrontal: white;
-
+$colorFrontal: #2D3740;
+$colorFuenteFrontal: #F2527D;
 
 
-$colorBackground: #bdb76b;
+
+$colorBackground: #B8BCBF;
 
 
-$colorGradFondo: linear-gradient(35deg, rgba(64,39,33,1) 4%, rgba(242,242,242,1) 72%, rgba(255,255,255,1) 100%);
+// $colorGradFondo: linear-gradient(35deg, rgba(64,39,33,1) 4%, rgba(242,242,242,1) 72%, rgba(255,255,255,1) 100%);
+$colorGradFondo: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(251,247,115,1) 7%, rgba(255,255,255,1) 12%, rgba(140,214,58,1) 30%, rgba(240,240,240,1) 33%, rgba(117,138,230,1) 49%, rgba(255,255,255,1) 52%, rgba(240,82,82,1) 72%, rgba(255,255,255,1) 76%, rgba(0,0,0,1) 100%);
 
 $colorTransparente: #40272100;
 
@@ -21,3 +21,4 @@ $colorTransparente: #40272100;
     font-size: 16px;
     font-style: bold;
 }
+

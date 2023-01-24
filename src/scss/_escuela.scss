@@ -5,9 +5,8 @@
 }
 .textoEscuela {
     border-radius: 10px;
-    background-color: gray;
+    background-color: $colorFrontal;
     color: $colorFuenteFrontal;
-    box-shadow: 10px 10px 5px $colorFrontal;
     margin: 10px;
     padding: 10px;
 }
@@ -26,6 +25,5 @@
 }
 
 .bodyEscuela {
-    background-image: url(../../assets/img/wooden-texture-background.jpg);
     @extend .imagen_back;
 }

@@ -5,14 +5,13 @@
 
 .divPadreformContacto{
     background: $colorGradFondo;
-    background-image: url(../../assets/img/wall_wooden_textured.jpg);
     width: 450px;
     padding: 10px;
     border-style: solid;
     border-width: 0.5px;
     border-radius: 10px;
     legend{
-        color: $colorFuenteFrontal;
+        color: $colorFrontal;
     }
 }
 
@@ -25,16 +24,15 @@
         padding: 4px;
         background-color: $colorTransparente;
         i{
-            color: $colorFuenteFrontal;
+            color: $colorFrontal;
         }
     }
 }
 
 .completarFormContacto{
-    width: 95%;
-    border-radius: 5px;
-    background-color: $colorFuenteFrontal;
-    border-bottom-color: $colorFrontal;
+    width: 90%;
+    border: none;
+    background-color: $colorBackground;
 }
 
 .fieldsetContacto {
