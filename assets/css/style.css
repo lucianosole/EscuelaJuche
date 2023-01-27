@@ -13,14 +13,9 @@
 }
 
 body {
-  margin-top: 95px;
+  margin-top: 100px;
   width: 100%;
   background-color: #B8BCBF;
-}
-@media (max-width: 650px) {
-  body {
-    margin-top: 120px;
-  }
 }
 
 .botonTkd {
@@ -52,7 +47,9 @@ h1 {
   font-weight: bold;
   font-size: 40px;
   color: #F2527D;
-  height: auto;
+  height: 80px;
+  width: 100%;
+  z-index: 200;
 }
 @media (max-width: 850px) {
   h1 {
@@ -75,21 +72,17 @@ h1 {
   position: fixed;
   top: 0px;
   width: 100%;
+  height: 100px;
   z-index: 10;
 }
 
 .img_nav {
-  height: 90px;
+  height: 95px;
   position: static;
   padding: 2px;
   border-radius: 10px;
 }
-@media (max-width: 650px) {
-  .img_nav {
-    height: 70px;
-  }
-}
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .img_nav {
     height: 50px;
   }
@@ -291,9 +284,8 @@ table {
 .galerias {
   background-color: #B8BCBF;
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
-  margin: 20px;
+  margin: 10px;
 }
 
 .galeria {
