@@ -2,7 +2,12 @@
     background-color: $colorBackground;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     margin: 10px;
+    @media (max-width: 768px){
+        flex-direction: column;
+    }
+
 
 }
 .galeria{
@@ -12,6 +17,9 @@
     margin: 20px;
     overflow: hidden;
     border-radius: 10px;
+    @media(max-width:465px){
+        width: 90%;
+    }
 
     h4 {
         position: absolute;

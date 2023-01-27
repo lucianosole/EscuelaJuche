@@ -285,7 +285,13 @@ table {
   background-color: #B8BCBF;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   margin: 10px;
+}
+@media (max-width: 768px) {
+  .galerias {
+    flex-direction: column;
+  }
 }
 
 .galeria {
@@ -295,6 +301,11 @@ table {
   margin: 20px;
   overflow: hidden;
   border-radius: 10px;
+}
+@media (max-width: 465px) {
+  .galeria {
+    width: 90%;
+  }
 }
 .galeria h4 {
   position: absolute;
