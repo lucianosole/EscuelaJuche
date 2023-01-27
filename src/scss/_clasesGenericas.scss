@@ -12,8 +12,3 @@
 .sombraRoja{
     box-shadow: 10px 10px 5px $colorFuenteFrontal;
 }
-
-.cuadroBlanco{
-    background-color: $colorFondo;
-    @include sombraRoja;
-}

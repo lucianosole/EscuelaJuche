@@ -1,14 +1,16 @@
 .galerias{
     background-color: $colorBackground;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
+    margin: 20px;
+
 }
 .galeria{
     width: 450px;
     height: 300px;
     position: relative;
-    margin: 10px;
+    margin: 20px;
     overflow: hidden;
     border-radius: 10px;
 

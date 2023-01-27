@@ -1,5 +1,6 @@
 .mainContacto{
     background-image: url(../../assets/img/smartphone-wall-transparente.jpg);
+    background-size: cover;
     @extend .imagen_back;
 }
 
@@ -50,7 +51,7 @@
 
 .mapaUbi{
     width: 100%;
-    height: 90%;
+    height: 120%;
 }
 
 .textoMapaContacto {
